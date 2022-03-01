@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   
+    <title>New recipe</title>
+  </head>
+  <body>
+    <main style="margin: 1em;">
+      <h3>Create recipe</h3>
+      <form class="form-inline" action="api/users/recipes" method="POST">
+        <div class="form-group mb-2">
+          <label for="Name">Name</label>
+          <input class="form-control" type="text" name="Name"  style="width: 300px; margin: 1em"></br>
+          <label for="ingredients">Ingredients</label>
+          <input class="form-control" type="text" name="ingredients"  style="width: 300px; margin: 1em"></br>
+          <label for="instructions">Instructions</label>
+          <input class="form-control" type="textarea" name="instructions"  style="width: 300px; margin: 1em"></br>
+          
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
+    </main>
+     
+  </body>
+</html>
